@@ -1,0 +1,31 @@
+# Do not modify these lines
+__winc_id__ = '71dd124b4a6e4d268f5973db521394ee'
+__human_name__ = 'strings'
+
+# Add your code after this line
+
+#part1
+goalScorer1 = "Ruud Gullit";
+goalScorer2 = "Marco van Basten";
+
+goal_1 = 32;
+goal_2 = 54;
+
+scorers = goalScorer1 + " " + str(goal_1) + ", " + goalScorer2 + " " + str(goal_2)
+
+report = f"{goalScorer1} scored in the {goal_1}nd minute\n{goalScorer2} scored in the {goal_2}th minute"
+
+#part2
+
+player = "Ronald Koeman";
+first_name = (player[0:6]);
+
+last_name_len = len(player[8:14]);
+name_short = f"{first_name[0]}. {player[8:14]}"
+
+x = len(first_name)
+chant = (f"{first_name}!" * x)[:-1]
+print (chant);
+
+good_chant = chant [5] != chant [6]
+print(good_chant);
